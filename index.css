@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #0B1D26;
+  height: 3000px;
+  overflow-x: hidden;
+}
+
+.background {
+  z-index: -1;
+  position: absolute;
+  width: 1440px;
+}
+
+.HeaderMenu {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  color: rgb(255, 255, 255);
+}
+
+.HeaderLinks {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-top: 32px;
+  position: relative;
+  left: 20px;
+  font-size: 18px;
+}
+
+.HeaderReg {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 170px;
+
+}
+
+.HeaderLogo {
+  margin-top: 20px;
+  font-size: 32px;
+}
+
+.HeaderRegText {
+  margin-top: 32px;
+  position: relative;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+.HeaderText1 {
+  display: flex;
+  position: absolute;
+  top: 287px;
+left: 400px;
+}
+
+.GorLine {
+  height: 2px;
+  position: relative;
+  top: 9px;
+}
+
+.HeaderSubText1 {
+  font-size: 18px;
+  color: #FBD784;
+  margin-left: 10px;
+}
+
+.HeaderText2 {
+  font-size: 66px;
+  width: 950px;
+  color: #fff;
+  position: relative;
+  top: 250px;
+  left: 400px;
+}
+
+.transition {
+  background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
+  position: absolute;
+  top: 750px;
+  width: 1920px;
+  height: 700px;
+}
+
+.TourismLvl {
+  margin-left: -200px;
+}
+
+.Nomber01 {
+  font-size: 240px;
+  opacity: 0.1;
+  color: #fff;
+  margin-top: 800px;
+  margin-left: 29px;
+  z-index: 0;
+  font-weight: 700;
+}
+
+.StartImg {
+  z-index: 999;
+  height: 2px;
+  width: 72px;
+  position: absolute;
+  top: 1250px;
+  left: 180px;
+}
+
+.StartText {
+  position: absolute;
+  top: 1241px;
+  left: 270px;
+  color: #FBD784;
+}
+
+.TourismLvlTitle {
+  position: absolute;
+  top: 1251px;
+  left: 180px;
+  color: #fff;
+  font-size: 64px;
+  width: 555px;
+}
+
+.TourismLvlContent {
+  position: absolute;
+  top: 1451px;
+  left: 180px;
+  color: #fff;
+  font-size: 18px;
+  width: 632px;
+}
+
+.TourismLvlImg {
+  width: 366px;
+  position: relative;
+  left: 1150px;
+  top: -300px;
+}
+
+.Nomber02 {
+  font-size: 240px;
+  opacity: 0.1;
+  color: #fff;
+  position: absolute;
+  top: 1850px;
+  left: 509px;
+  z-index: 0;
+  font-weight: 700;
+}
+
+.TourismLvlImg2 {
+  width: 366px;
+  position: absolute;
+  left: 80px;
+  top: 1850px;
+}
+
+.StartImg2 {
+  z-index: 999;
+  height: 2px;
+  width: 72px;
+  position: absolute;
+  top: 2011px;
+  left: 739px;
+}
+
+.StartText2 {
+  position: absolute;
+  top: 2000px;
+  left: 839px;
+  color: #FBD784;
+}
+
+.TourismLvlTitle2 {
+  position: absolute;
+  top: 2051px;
+  left: 739px;
+  color: #fff;
+  font-size: 64px;
+  width: 555px;
+}
+
+.TourismLvlContent2 {
+  position: absolute;
+  top: 2251px;
+  left: 739px;
+  color: #fff;
+  font-size: 18px;
+  width: 632px;
+}
+
+
+
+
+
+
+
+
+.Nomber03 {
+  font-size: 240px;
+  opacity: 0.1;
+  color: #fff;
+  margin-top: 800px;
+  margin-left: 29px;
+  z-index: 0;
+  font-weight: 700;
+}
+
+.StartImg3 {
+  z-index: 999;
+  height: 2px;
+  width: 72px;
+  position: absolute;
+  top: 2871px;
+  left: 180px;
+}
+
+.StartText3 {
+  position: absolute;
+  top: 2861px;
+  left: 270px;
+  color: #FBD784;
+}
+
+.TourismLvlTitle3 {
+  position: absolute;
+  top: 2900px;
+  left: 180px;
+  color: #fff;
+  font-size: 64px;
+  width: 600px;
+}
+
+.TourismLvlContent3 {
+  position: absolute;
+  top: 3130px;
+  left: 180px;
+  color: #fff;
+  font-size: 18px;
+  width: 632px;
+}
+
+.TourismLvlImg3 {
+  width: 366px;
+  position: relative;
+  left: 1150px;
+  top: -300px;
+}
+
+footer {
+  height: 300px;
+  background-color: #0B1D26;
+  color: #fff;
+}
+
+.FooterLogo {
+  font-size: 32px;
+  position: absolute;
+  top: 3500px;
+  left: 100px;
+}
+
+.FooterLogoText {
+  position: absolute;
+  top: 3580px;
+  left: 100px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.FooterLogoPrivacy {
+  position: absolute;
+  top: 3780px;
+  left: 100px;
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.5;
+}
+
+.FooterMore {
+  position: relative;
+  bottom: 25px;
+  left: 700px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.FooterMoreTitle {
+  color:#FBD784;
+  font-size: 24px;
+  margin-bottom: 30px;
+
+}
+
+.FooterMoreAbout {
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+.FooterMoreContributors {
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+.FooterMoreWriteForUs {
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+.FooterMoreContactUs {
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+.FooterMorePrivacyPolicy {
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+
+.FooterContainer3 {
+  position: relative;
+  bottom: 380px;
+  left: 1100px;
+  margin-bottom: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.FooterMore2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.FooterMoreTitle2 {
+  margin-bottom: 24px;
+  font-size: 24px;
+  color:#FBD784;
+}
+.FooterMoreTeam {
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+.FooterMoreJobs {
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+.FooterMorePress {
+  margin-bottom: 24px;
+  font-size: 18px;
+}
